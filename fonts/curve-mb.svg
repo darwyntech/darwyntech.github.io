@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="375px" height="252px" viewBox="0 0 375 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>home/0 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="92.5485532%" y1="50%" x2="9.27503105%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#E335F3" offset="0%"></stop>
+            <stop stop-color="#2CCBE9" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="49.6190727%" cy="50%" fx="49.6190727%" fy="50%" r="19.0687054%" gradientTransform="translate(0.496191,0.500000),scale(0.327711,1.000000),rotate(90.000000),scale(1.000000,1.869618),translate(-0.496191,-0.500000)" id="radialGradient-2">
+            <stop stop-color="#F0F4F5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M0,319.27024 C66.9292814,401.756747 143.217905,443 228.865871,443 C314.513837,443 390.89188,401.756747 458,319.27024 C452.748579,324.081462 449.891682,289.006018 446.604852,293.268667 C316.5,462 302,305 225.430139,305 C142.884553,305 161,462 0,319.27024 Z" id="path-3"></path>
+    </defs>
+    <g id="Website-–-ready-for-Dev" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Mobile" transform="translate(0.000000, -418.000000)">
+            <g id="Hero-Section" transform="translate(-33.000000, 0.000000)">
+                <g id="home/0-copy" transform="translate(0.000000, 215.000000)">
+                    <path d="M0,319.016306 C66.8698943,401.672102 143.090826,443 228.662796,443 C314.234765,443 390.545037,401.672102 457.593612,319.016306 C457.593612,301.438732 459.395741,195.099963 463,2.27373675e-13 C454.314828,3.81102196e-13 448.7873,4.23608884e-13 446.417416,3.5489374e-13 C450.158548,13.9459113 444.736596,84.1074543 436.577614,111.413395 C368.406603,381.128873 204.120564,537.178506 0,319.016306 Z" id="blue" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" opacity="0.200000003"></path>
+                    <path d="M1,318.924622 C67.9292814,401.641541 144.217905,443 229.865871,443 C315.513837,443 391.89188,401.641541 459,318.924622 C448.516163,328.362339 437.542589,253.073616 435.165241,259.37522 C382.867726,397.999521 382.867726,285.498323 340,285.498323 C303.056928,285.498323 278.434533,411.522119 186.754006,409.677927 C143.514596,408.808149 68.0236223,389.818206 1,318.924622 Z" id="pink" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" opacity="0.200000003"></path>
+                    <g id="green-copy">
+                        <use fill-opacity="0.2" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" xlink:href="#path-3"></use>
+                        <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M3,319.608098 C69.9292814,402.536033 146.217905,444 231.865871,444 C317.513837,444 393.89188,402.536033 461,319.608098 C449.097621,330.12987 439.348754,168.391959 436.021674,178.450746 C379.664152,348.836904 301.282737,412.323904 262.803131,414.272973 C200.281456,417.439822 172.760582,319.608098 119,319.608098 C82.5510923,319.608098 82.0510923,385.5 3,319.608098 Z" id="grey-copy" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" opacity="0.200000003"></path>
+                    <path d="M5.89123896e-05,319.076867 C-0.0180335105,380.875591 4.13110996,415.807853 12.4474893,423.873654 C70.1558675,479.843238 158.275674,443.250333 228.626627,443.250333 C314.185039,443.250333 386.64283,443.250333 446,443.250333 C442.355933,446.955614 445.841922,208.270028 444.129975,212.044296 C371.857403,371.381086 305.738239,428 249.5,428 C118.5,428 115,301 56,301 C17.5,301 32.4914544,355.528854 5.89123896e-05,319.076867 Z" id="orange-copy" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" opacity="0.200000003"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

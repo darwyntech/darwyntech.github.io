@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>playbutton</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-23.3%" y="-16.7%" width="146.7%" height="146.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button/Play" transform="translate(-24.000000, -28.000000)">
+            <g id="playbutton">
+                <g transform="translate(32.000000, 32.000000)">
+                    <g id="Mask-Copy-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#181C24" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M37.4421868,29.6006761 L26.7093036,23.0676168 C26.5655763,22.9803538 26.3849839,22.9775539 26.23799,23.0592171 C26.0909962,23.1422803 26,23.2976738 26,23.4661334 L26,36.5322521 C26,36.7007117 26.0909962,36.8561052 26.23799,36.9391683 C26.3089204,36.9788333 26.3877837,36.9988992 26.4666471,36.9988992 C26.5511102,36.9988992 26.6346401,36.9760335 26.7093036,36.9307687 L37.4421868,30.3977094 C37.5812476,30.3132462 37.6661774,30.1620526 37.6661774,29.9991927 C37.6661774,29.8363329 37.5812476,29.6851392 37.4421868,29.6006761 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
