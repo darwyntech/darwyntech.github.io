@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Genis</title>
+	<meta name="description" content="Page description. No longer than 155 characters."><!-- Twitter Card data --><meta name="twitter:card" content="Mendel"><meta name="twitter:title" content="Mendel"><meta name="twitter:description" content="Find out how our clinically-validated AI accelerates cancer trials and analyzes data from our site network to deliver evidence and facilitate patientless trials."><meta name="twitter:image" content="assets/images/Thumbnail2.png"><!-- Open Graph data --><meta property="og:title" content="Mendel"><meta property="og:url" content="http://www.mendel.ai/"><meta property="og:image" content="images/Thumbnail2.png"><meta property="og:description" content="Find out how our clinically-validated AI accelerates cancer trials and analyzes data from our site network to deliver evidence and facilitate patientless trials."><meta property="og:site_name" content="Mendel.ai">
+	<link href="images/64x64.png" rel="shortcut icon" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/css.css" rel="stylesheet" />
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+	<link href="css/main.css" media="screen" rel="stylesheet" type="text/css" /><!-- Global site tag (gtag.js) - Google Analytics --><script async src="js_1.html"></script><script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136023200-1');
+    </script>
+</head>
+<body>
+<div class="popup-wrap" id="salesForm" style="display: none;">
+<div>
+<h3>To start your free trial, please complete the form below</h3>
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" id="salesForceForm" method="post"><input name="oid" type="hidden" value="00Df2000001NHUX" /> <input id="00Nf200000CgfpI" name="00Nf200000CgfpI" type="hidden" value="Free Trial" /> <input id="00Nf2000003DYIZ" name="00Nf2000003DYIZ" type="hidden" /> <input id="00Nf2000003DaaK" name="00Nf2000003DaaK" type="hidden" />
+<div class="option-row"><span class="rdo-wrp"><input checked="checked" id="rdo1" name="radio" onclick="setRadioVal();" type="radio" value="Research Sites" /> <label for="rdo1">About</label> </span> <span class="divider">or</span> <span class="rdo-wrp"> <input id="rdo2" name="radio" onclick="setRadioVal();" type="radio" value="Life Sciences" /> <label for="rdo2">Life Sciences</label> </span></div>
+<span class="separtor"><i class="icon-separator">&nbsp;</i></span>
+
+<div class="form-body">
+<div class="form-row">
+<div class="form-col"><label>First Name</label> <input id="first_name" name="first_name" placeholder="First Name" required="" type="text" /></div>
+
+<div class="form-col"><label>Last Name</label> <input id="last_name" name="last_name" placeholder="Last Name" required="" type="text" /></div>
+</div>
+
+<div class="form-row">
+<div class="form-col"><label>email</label> <input id="email" name="email" placeholder="Email" required="" type="email" /></div>
+
+<div class="form-col"><label>Phone</label> <input id="phone" name="phone" placeholder="Phone" required="" type="tel" /></div>
+</div>
+
+<div class="form-row roleRadio"><label>role</label>
+
+<div class="radio-group"><span class="rdo-wrp"><input id="rdo3" name="radio1" onclick="setRadioVal();" type="radio" value="Management" /> <label for="rdo3">Management</label> </span> <span class="rdo-wrp"> <input checked="checked" id="rdo4" name="radio1" onclick="setRadioVal();" type="radio" value="Principal Investigator" /> <label for="rdo4">Principal Investigator</label> </span> <span class="rdo-wrp"> <input id="rdo5" name="radio1" onclick="setRadioVal();" type="radio" value="Research Nurse" /> <label for="rdo5">Research Nurse</label> </span> <span class="rdo-wrp"> <input id="rdo6" name="radio1" onclick="setRadioVal();" type="radio" value="Other (include blank text field to be completed by requestor)" /> <label for="rdo6">Other</label> </span></div>
+</div>
+
+<div class="form-row other-role">
+<div class="form-col"><label>Role</label> <input id="00Nf2000003DaaU" name="00Nf2000003DaaU" placeholder="Role" type="text" /></div>
+</div>
+
+<div class="form-row"><label>Organization</label><textarea id="company" name="company" placeholder="Organization" required=""></textarea></div>
+</div>
+<!--
+			<div class="option-row">
+						<span class="rdo-wrp">
+							<input type="radio" id="rdo1" name="radio" checked value="Research Sites"/>
+							<label for="rdo1">Research Sites</label> </span>
+                <span class="divider">or</span>
+                <span class="rdo-wrp">
+							<input type="radio" id="rdo2" name="radio" value="Life Sciences"/>
+							<label for="rdo2">Life Sciences</label> </span>
+            </div>
+            <span class="separtor"><i class="icon-separator">&nbsp;</i></span>
+            <div class="form-body">
+                <div class="form-row">
+                    <div class="form-col">
+                        <label>First Name</label>
+                        <input required type="text" name="first_name" id="first_name" placeholder="First Name"/>
+                    </div>
+                    <div class="form-col">
+                        <label>Last Name</label>
+                        <input required type="text" name="last_name" id="last_name" placeholder="Last Name"/>
+                    </div>
+
+
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label>email</label>
+                        <input required type="email" name="email" id="email" placeholder="Email"/>
+                    </div>
+                    <div class="form-col">
+                        <label>Phone</label>
+                        <input required type="tel" name="telephone" id="telephone" placeholder="Phone"/>
+                    </div>
+                </div>
+                <div class="form-row roleRadio">
+                    <label>role</label>
+                    <div class="radio-group">
+								<span class="rdo-wrp">
+									<input type="radio" value="Management" id="rdo3" name="radio1"/>
+									<label for="rdo3">Management</label> </span>
+                        <span class="rdo-wrp">
+									<input type="radio" value="Principal Investigator" id="rdo4" name="radio1" checked/>
+									<label for="rdo4">Principal Investigator</label> </span>
+                        <span class="rdo-wrp">
+									<input type="radio" value="Research Nurse" id="rdo5" name="radio1"/>
+									<label for="rdo5">Research Nurse</label> </span>
+                        <span class="rdo-wrp">
+									<input type="radio" value="Other" id="rdo6" name="radio1"/>
+									<label for="rdo6">Other</label> </span>
+                    </div>
+                </div>
+                <div class="form-row other-role">
+                    <div class="form-col">
+                        <label>Role</label>
+                        <input type="text" name="role" id="role" placeholder="Role"/>
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <label>Organization</label>
+                    <textarea required name="organization" id="organization" placeholder="Organization"></textarea>
+                </div>
+            </div>
+			-->
+
+<div class="send-row"><input class="btn-secondary" type="submit" value="send request" /></div>
+</form>
+
+<div id="form-messages"></div>
+</div>
+</div>
+<!--Page Wrapper Start-->
+
+<div id="wrapper"><!--Header Section Start-->
+<header class="header sticky-mobile">
+<div class="container clearfix"><a class="logo" href="http://genis.ca/index.html"><img alt="logo" src="images/darwyn.png" /> </a>
+
+<nav class="navigation"><a class="menu-toggler" href="javascript:;"><i class="icon-toggler">&nbsp;</i></a>
+
+<div class="join-wrap"><a class="join-btn" data-fancybox="" data-src="#salesForm" href="javascript:;">Sign Up</a></div>
+
+<ul class="menu">
+	<li class="submenu-sm"><a href="http://genis.ca/sites.html">research sites</a></li>
+	<li><a href="http://darwyn.ca/life_sciences.html">life sciences</a></li>
+	<li class="sub-menu"><a href="index.html">company<i class="icon-arrow">&nbsp;</i></a>
+	<div class="mega-menu">
+	<div class="container">
+	<ul class="clearfix">
+		<li>
+		<div class="submenu-wrap"><a href="http://genis.ca/company.html">About <span>Learn About Darwyn&#39;s mission, vision and story</span></a></div>
+		</li>
+		<li class="active">
+		<div class="submenu-wrap"><a href="http://genis.ca/careers.html">Careers <span>Join 2 teens with a dream to change the world</span></a></div>
+		</li>
+		<li class="submenu-list">
+		<div class="submenu-wrap"><a href="http://genis.ca/blog.html">Blog <span>Read the latest from our founder Eshan Rasul</span></a></div>
+		</li>
+		<li class="contact-us">
+		<div class="submenu-wrap"><a href="index.html#footer">Contact Us<i class="icon-arrowup">&nbsp;</i></a></div>
+		</li>
+	</ul>
+	</div>
+	</div>
+	</li>
+</ul>
+</nav>
+</div>
+</header>
+<!--Header Section End--><!--Content Area Start-->
+
+<div class="content"><!--section banner Start-->
+<section class="banner">
+<div class="container">
+<h1 class="hero-text">Supercharging Humanity Using <strong>CRISPR-Cas9 and nanoparticle drug delivery</strong> <span> for Genetic Enhancement</span></h1>
+
+<div class="play-btn">
+<div class="play-rip" data-fancybox="" data-filename="assets/js/jk.json" href="https://www.youtube.com/watch?v=o2cW7lWtp6w">
+<div class="file_preview_overlay show overlay_white">
+<div class="temp_preview" id="show_preview_here"><img alt="play" class="play-img" src="fonts/play1.svg" /></div>
+</div>
+</div>
+
+<div class="btn-wrap"><!-- Calendly link widget begin --></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</body>
+<link href="css/widget.css" rel="stylesheet" /><script src="js/widget.js" type="text/javascript"></script><a class="btn-primary" href="index.html" onclick="Calendly.showPopupWidget('https://calendly.com/salesmendel/60min');return false;">Sign Up Here!</a> <!--                         Calendly link widget end--> <!--                        <a data-fancybox href="javascript:;" data-src="#salesForm" class="btn-primary" href="#">Request a Demo</a>--> <!-- Calendly badge widget begin --> <!-- Calendly badge widget end --> <!--section banner end--> <!--section clinical data start--> <!-- <div class="clinical-data">
+            <div class="container">
+                <ul>
+                    <li class="graph-line1">
+                        <strong>1b</strong>
+                        <span>clinical data points searched  in less than <span>1 second</span></span>
+                    </li>
+                    <li class="graph-line2">
+                        <strong>100<sub>%</sub></strong>
+                        <span>of all selected sites are  successfuly enrolled</span>
+                    </li>
+                    <li class="graph-line3">
+                        <strong>9</strong>
+                        <span>minutes to identify and qualify a patient</span>
+                    </li>
+                    <li class="graph-line4">
+                        <strong>20<sub>%</sub></strong>
+                        <span>more eligible patients than the industry avg. identifed</span>
+                    </li>
+                </ul>
+            </div>
+        </div> --> <!--section clinical data end--> <!--section exchange data start-->
+<section class="exchange">
+<div class="container"><!-- <h2>Join the <strong>Exchange:</strong></h2> -->
+<div class="exchange-row">
+<div class="macbook"><img alt="" class="show-desktop" src="images/mac-lg.png" /> <img alt="" class="hide-desktop" src="images/mac-mb.png" /> <!--<div class="mac-btn">--> <!--<div class="play-rip" data-filename="assets/js/jk.json">--> <!--<div class="file_preview_overlay show overlay_white">--> <!--<div id="show_preview_here1" class="temp_preview">--> <!--<img src="assets/images/play1.svg" alt="play" class="play-img"/>--> <!--</div>--> <!--</div>--> <!--</div>--> <!--</div>--></div>
+
+<div class="exchange-info"><span class="tiny-heading"></span>
+
+<h3>Our Mission</h3>
+
+<p>There are so many problems around the world that need to be solved, but there are a finite number of people that have the nessacary skills to solve them. But what if every single person could be as strong as an NFL linebacker, and have the same IQ as Elon Musk. If you think about it it just makes more senese to operate the world this way. Yet people are still dying of starvation because everyone is waiting for others to solve problems for them, which is why two motivated teens started Darwyn: a company aimed at enabling humans to reach thier full potential using lipid based biodegradeable synthetic nanoparticles to deliver CRISPR-CAS9 for genetic enhancement. </p>
+
+<div class="btn-wrap"><a class="btn-primary">Learn More</a></div>
+</div>
+</div>
+
+<div class="exchange-reverse">
+<div class="macbook"><img alt="" src="images/mac-lg2.png" />
+<div class="graph-wrap"><img alt="" src="images/graph-img.png" /></div>
+</div>
+
+<div class="exchange-info"><span class="tiny-heading">The Process</span>
+
+<p>Our novel process leverages nanoparticle drug delivery to get CRISPR-CAS9 treatments to places of the body they couldn't be before. The lipid nanoparticles use encapsulated messenger RNA (mRNA) encoding Cas9. The contents of the nanoparticles, including an engineered ‘single-guide’ RNA (sgRNA), are released into cells. Equipped with a specific gene tailored to the patients eg. the ACTN3 gene for increased athletic performance.   </p>
+
+<div class="btn-wrap"><a class="btn-primary">Learn More</a></div>
+</div>
+</div>
+</div>
+</section>
+<!--section exchange data end--> <!--section news start-->
+
+<div class="content">
+
+<section class="real-data">
+<div class="container clearfix">
+<div class="support-text">
+<h1 class="hero-text">Leading Humanity&rsquo;s<span>Revolution</span></h1>
+<p>
+The status quo sucks! But what if we could enable everyone to maximize their body&rsquo;s potential, wouldn't the world be a better place? By Leveraging nanoparticle drug delivery and cutting edge gene therapies Darwyn is creating a better future.
+</p>
+<div class="btn-wrap">
+<a class="btn-primary" data-fancybox href="javascript:;" data-src="#salesForm">Try Free</a>
+</div>
+</div>
+<div class="mendal-img">
+<figure>
+<img src="images/hero2.png" alt="" />
+</figure>
+</div>
+</div>
+</section>
+
+
+<section class="data-analysis">
+<div class="container">
+
+<div class="data-row">
+<div class="analysis-text">
+<span class="tiny-heading">01</span>
+<h3>Choose your Treatment </h3>
+<p>
+We make it extremely easy for our customers to select what they want to improve, whether it be strength or intelligence all you have to do is simply sign up, just fill out the nessacary credentials and we&rsquo;ll do the rest.
+</p>
+</div>
+<div class="analysis-img">
+<span class="analysis-count">01</span>
+<img src="images/real-data.png" alt="" />
+</div>
+</div>
+<div class="site-row">
+<div class="analysis-text">
+<span class="tiny-heading">02</span>
+<h3>We Ship it to you</h3>
+<p>
+After you sign up, we process your order and create a personalized kit that includes intructions, and the treatment that comes in the form of a swallowing tablet. The package is personalized and includes a description and disclosure of what is inside the tablet and how its going to supercharge you!
+</p>
+</div>
+<div class="analysis-img">
+<span class="analysis-count">02</span>
+<img src="images/site.png" alt="" />
+</div>
+</div>
+<div class="trail-info">
+<div class="analysis-text">
+<span class="tiny-heading">03</span>
+<h3>Wait for Results</h3>
+<p>
+We garantee a 90% sucess rate, and if it doesn't work a money back garantee with a replacement tablet. We reccoment waiting anywhere between 6 months to 2 years to see the results, and garuntee that they stay for life, allowing you to unlock your full potential and solve the worlds biggest problems!
+</p>
+</div>
+<div class="analysis-img">
+<span class="analysis-count">03</span>
+<img src="images/match.png" alt="" />
+</div>
+</div>
+
+<section class="value-sec">
+<h2>Values</h2>
+<ul>
+<li>
+<span class="tiny-heading">01</span>
+<h3>Transparency</h3>
+<p>
+Here at Darwyn Labs, we believe in maintaining trust with our customers, and in order to build trust, we've built a culture of transparency within our company
+</p>
+</li>
+<li>
+<span class="tiny-heading">02</span>
+<h3>Lead With Originality</h3>
+<p>
+What we are creating is an original solution. We
+strive to innovate with every iteration and to do
+things on our own terms, rather than copying
+others.
+</p>
+</li>
+<li>
+<span class="tiny-heading">03</span>
+<h3>Growth Mindset</h3>
+<p>
+We believe in being the best you can possibly be, and growing 1% every day. In order to create this culture of growth and being the best version of yourself, we highly encourage a growth mindset within our company.
+</p>
+</li>
+<li>
+<span class="tiny-heading">04</span>
+<h3>High Standards</h3>
+ <p>
+We don't settle for mediocrity. Everything we do must maintain a certain standard that we set. If we don't meet that standard, we're sacrificing our quality as a brand.
+</p>
+</li>
+<li>
+<span class="tiny-heading">05</span>
+<h3>Humility</h3>
+<p>
+We don't believe in egos. Everyone needs to come in with an open mind and a willingness to hear everyone's perspective. Company hierarchies mean nothing to us, if you have a good idea, that idea will be valued, regardless of your position.</p>
+</li>
+<li>
+<span class="tiny-heading">06</span>
+<h3>Excitement</h3>
+<p>
+We wake up everyday excited to work on something meaningful. In order to make an impact on the world, you need to be excited about what you're working on, and we're working on some pretty exciting stuff.
+</p>
+</li>
+</ul>
+</section>
+
+</div>
+</div>
+
+<section class="news-sec">
+<div class="container">
+<h2>A bit about us...</h2>
+
+<div class="item-wrap">
+<div class="item vevent"><!--<div class="event-info">--><!--<span><strong>asco</strong></span>--><!--</div>--><span class="tiny-heading">Co-Founder</span>
+
+<h3 class="summary">Eshan Rasul</h3>
+
+<p class="description">Eshan is a 15&nbsp;year old genomics and nanotechnology enthusiast. He has developed applications in each aimed at solving some of the worlds biggest problems. Over the summer he worked in researching the funtionalization of gold and silver nanomaterials target and treat the CA 27-29 breast cancer mutation.</p>
+</div>
+
+<div class="item vevent"><!--<div class="event-info">--><!--<span>Patient</span>--><!--</div>-->
+<h2 class="tiny-heading">Co-Founder</h2>
+
+<h3 class="summary">Gurjaap Brar </h3>
+
+<p class="description">Gurjaap is a 15&nbsp;year old VR and AR enthusiast. He's extremely passionate about working with exponential technologies to solve big problems and make the world a better place. Recently, he's been working on building an application for using VR for memory improvement for those with early onset dimentia and alzeimers.
+
+</p>
+<!--<h3 class="summary">About our Second Round of Funding</h3>--><!--<p class="description">--><!--Mendel has closed a second round of financing and is--><!--planning to expand our site network and improve on--><!--the applications of Mendel Brain in Real world data--><!--studies.--><!--<a target="_blank" href="blog.html">Read more</a>.--><!--</p>--></div>
+
+<div class="item vevent"><!--<div class="event-info">--><!--<span>company</span>--><!--</div>--><span class="tiny-heading">Blog</span>
+
+<h3 class="summary">Eshan R & Gurjaap B</h3>
+
+<p class="description"></p>
+<!--<a href="company.html">Read more</a>.--></div>
+</div>
+</div>
+</section>
+<!--section news end--> <!--Content Area End--> <!--Footer Section Start-->
+
+</div>
+
+<footer class="footer" id="footer"><!--Brand Area Start-->
+<div class="brand-sec">
+<div class="container">
+<ul class="clearfix">
+	<li><a href="https://theksociety.com/" target="_blank"><img alt="Tech" src="images/tks.png" /> </a></li>
+	<li><a href="index.html" target="_blank"> <img alt="Gen" src="images/gen.png" /> </a></li>
+	<li><a href="index.html" target="_blank"> <img alt="Mobi" src="images/mobi.png" /> </a></li>
+	<li><a href="index.html" target="_blank"> <img alt="Bio" src="images/bio.png" /> </a></li>
+</ul>
+</div>
+</div>
+<!--Brand Area End-->
+
+<div class="footer-wrap">
+<div class="container"><a class="flogo" href="http://genis.ca/index.html"><img alt="logo" src="images/darwyn4.png" /> </a>
+
+<div class="footer-content hcard">
+<div class="footer-info">
+<div class="news-wrap">
+<h6>Subscribe to our Newsletter</h6>
+
+<ul>
+	<li><span>Be the first to get updates on our news and publications. </span></li>
+	<li>
+	<form action="https://medium.com/@ayaanesmail04/why-we-decided-to-start-a-company-that-is-preventing-disease-af7e7dd42ae1" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank"><input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value="" /> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> <input name="b_e7bfce27c58794de83f683dfb_2130d02198" tabindex="-1" type="hidden" value="" /> <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Join us" /></form>
+	<!--End mc_embed_signup--></li>
+</ul>
+</div>
+<!--<div id="mc_embed_signup">--><!--<form action="https://mendel.us19.list-manage.com/subscribe/post?u=e7bfce27c58794de83f683dfb&amp;id=2130d02198"--><!--method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"--><!--class="validate" target="_blank" novalidate>--><!--<div id="mc_embed_signup_scroll">--><!--<h2>Subscribe to our mailing list</h2>--><!--<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>--><!--<div class="mc-field-group">--><!--<label for="mce-EMAIL">Email Address <span class="asterisk">*</span>--><!--</label>--><!--<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">--><!--</div>--><!--<div id="mce-responses" class="clear">--><!--<div class="response" id="mce-error-response" style="display:none"></div>--><!--<div class="response" id="mce-success-response" style="display:none"></div>--><!--</div>--><!--&lt;!&ndash; real people should not fill this in and expect good things - do not remove this or risk form bot signups&ndash;&gt;--><!--<div style="position: absolute; left: -5000px;" aria-hidden="true">--><!--</div>--><!--<div class="clear"></div>--><!--</div>--><!--</form>--><!--</div>--><!--End mc_embed_signup-->
+
+<div class="contact-wrap">
+<h6>Contact Us</h6>
+
+<ul>
+	<li><span>general</span><a class="email" href="mailto:ayaan@genis.ca">eshan@darwyn.life</a></li>
+	<li><span>investors</span><a class="email" href="mailto:eshan@genis.ca">eshan@darwyn.life</a></li>
+	<li><span>media</span><a class="email" href="mailto:valmik@genis.ca">gurjaap@darwyn.life</a></li>
+</ul>
+</div>
+</div>
+
+<div class="office-wrap">
+<div class="office-cont">
+<h6>Our Office</h6>
+
+<ul>
+	<li>
+	<address class="adr">1 University Avenue.<br />
+	<br />
+	Toronto, ON, Canada</address>
+	</li>
+	<li><a class="tel" href="tel:8776209080">(905) 608-1849</a></li>
+</ul>
+</div>
+
+<ul class="social-icons">
+	<li><a href="https://www.linkedin.com/company/49076922/admin/" target="_blank"><img alt="linkedin" src="fonts/linkedin.svg" /> </a></li>
+	<li><a href="" target="_blank"><img alt="facebook" src="fonts/fb.svg" /> </a></li>
+	<li><a href="" target="_blank"><img alt="twitter" src="fonts/twitter.svg" /> </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!--Footer Section End--> <!--Page Wrapper End--> <script>
+        function setRadioVal() {
+            if (document.getElementById('rdo1').checked) {
+                document.getElementById('00Nf2000003DYIZ').value = document.getElementById('rdo1').value;
+            } else if (document.getElementById('rdo2').checked) {
+                document.getElementById('00Nf2000003DYIZ').value = document.getElementById('rdo2').value;
+            }
+
+
+            if (document.getElementById('rdo3').checked) {
+                document.getElementById('00Nf2000003DaaK').value = document.getElementById('rdo3').value;
+            } else if (document.getElementById('rdo4').checked) {
+                document.getElementById('00Nf2000003DaaK').value = document.getElementById('rdo4').value;
+            } else if (document.getElementById('rdo5').checked) {
+                document.getElementById('00Nf2000003DaaK').value = document.getElementById('rdo5').value;
+            } else if (document.getElementById('rdo6').checked) {
+                document.getElementById('00Nf2000003DaaK').value = document.getElementById('rdo6').value;
+            }
+        }
+        setRadioVal();
+    </script> <script src="js/jquery.min.js"></script> <script src="js/slick.min.js"></script> <script src="js/lotto.js"></script> <script src="js/ripple.js"></script> <script src="js/sticky.js"></script> <script src="js/site.js"></script> <script src="js/jquery.fancybox.min.js"></script></html>
